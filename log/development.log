@@ -311,3 +311,33 @@ Migrating to CreateReservations (20180417141301)
   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
   [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = $1, "updated_at" = $2 WHERE "flights"."id" = $3[0m  [["airplane_id", 5], ["updated_at", "2018-04-18 00:15:28.404141"], ["id", 5]]
   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/airplanes" for 127.0.0.1 at 2018-04-18 10:56:33 +1000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (1.1ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 214ms (Views: 199.3ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/airplanes.json" for 127.0.0.1 at 2018-04-18 10:58:00 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.8ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (1.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (28.9ms)
+Completed 200 OK in 36ms (Views: 25.2ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-04-18 10:58:17 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.6ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (8.1ms)
+Completed 200 OK in 23ms (Views: 8.3ms | ActiveRecord: 5.4ms)
+
+
