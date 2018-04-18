@@ -27,11 +27,14 @@ ActiveRecord::Schema.define(version: 20180417141301) do
     t.datetime "flightTime"
     t.string "source"
     t.string "destination"
+    t.integer "airplane_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "reservations", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "flight_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

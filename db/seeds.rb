@@ -30,8 +30,8 @@ u2 = User.create :name => "James Theo"
 u3 = User.create :name => "Joel Turnball"
 
 # This seed section failed - will have to attempt it again!
-# a1.flights << f1
-# a2.flights << f2
-# a3.flights << f3
-# a4.flights << f4
-# a5.flights << f5 
+a1.flights << f1
+a2.flights << f2
+a3.flights << f3
+a4.flights << f4
+a5.flights << f5 
