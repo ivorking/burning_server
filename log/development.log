@@ -448,9 +448,9 @@ Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.3ms)
 
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-18 09:55:49 +1000
   [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -479,9 +479,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-18 09:55:53 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -510,9 +510,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-18 09:55:57 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -545,5 +545,3 @@ Processing by Rails::WelcomeController#index as HTML
   Rendering /Users/vule/.rvm/gems/ruby-2.4.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
   Rendered /Users/vule/.rvm/gems/ruby-2.4.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
 Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.0ms)
-
-
