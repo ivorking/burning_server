@@ -576,3 +576,77 @@ Processing by AirplanesController#index as HTML
 Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/flights.json" for ::1 at 2018-04-18 16:02:30 +1000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (1.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (8.9ms)
+Completed 200 OK in 32ms (Views: 15.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:07:58 +1000
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.5ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (6.8ms)
+Completed 200 OK in 30ms (Views: 15.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:08:47 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (1.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (22.3ms)
+Completed 200 OK in 33ms (Views: 16.9ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:08:52 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (1.8ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:08:58 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (2.0ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (3.9ms)
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:09:18 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (1.5ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:09:19 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.5ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (1.4ms)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:10:47 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (1.5ms)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for ::1 at 2018-04-18 16:10:49 +1000
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.8ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.json.jbuilder (3.4ms)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.8ms)
+
+
