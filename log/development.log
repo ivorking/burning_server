@@ -470,3 +470,2493 @@ Processing by FlightsController#index as JSON
 Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/" for ::1 at 2018-04-18 14:38:09 +1000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ivor/.rvm/gems/ruby-2.4.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ivor/.rvm/gems/ruby-2.4.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 15:54:09 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (14.7ms)
+Completed 200 OK in 24ms (Views: 12.2ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:02:54 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.9ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:02:58 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.5ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:02 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:06 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:10 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:14 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.0ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:18 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:22 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:32 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:37 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:42 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (6.8ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:52 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (7.0ms)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:03:57 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (6.9ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:02 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.9ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:12 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:17 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.9ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:22 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:32 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:37 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.6ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:41 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:45 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:49 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:53 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:04:57 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (3.8ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (3.3ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:05 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (4.9ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:09 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (7.1ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:13 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (6.6ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:17 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.4ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:22 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:25 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:29 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.8ms)
+  Rendered reservations/index.json.jbuilder (6.3ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:33 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.6ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:37 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (2.0ms)
+  Rendered reservations/index.json.jbuilder (6.8ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:41 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:45 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.2ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:49 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:53 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:05:57 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (3.8ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:05 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.2ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:09 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:13 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:17 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.9ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:06:25 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:05 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (4.9ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:09 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:13 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:17 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (2.0ms)
+  Rendered reservations/index.json.jbuilder (6.6ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:25 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:29 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:33 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (4.1ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:37 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:41 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:45 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.2ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:49 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (8.0ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:53 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:07:57 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:05 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (4.9ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:09 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:13 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (4.9ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:17 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.8ms)
+  Rendered reservations/index.json.jbuilder (6.5ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (4.2ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:25 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:29 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:08:33 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2018-04-18 16:11:39 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ivor/.rvm/gems/ruby-2.4.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ivor/.rvm/gems/ruby-2.4.1/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:11:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (4.0ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:11:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:11:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.5ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (6.0ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.0ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.6ms)
+
+
+Started OPTIONS "/reservations.json" for ::1 at 2018-04-18 16:12:44 +1000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/reservations.json"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
+web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (2.1ms)
+  Rendered reservations/index.json.jbuilder (6.6ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:56 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:12:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.1ms)
+  Rendered reservations/index.json.jbuilder (4.6ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.5ms)
+  Rendered reservations/index.json.jbuilder (5.8ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (6.0ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (1.1ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.3ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (3.5ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.2ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.4ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.9ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.7ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (6.3ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.5ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (2.7ms)
+  Rendered reservations/index.json.jbuilder (8.6ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (6.7ms)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:56 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:13:56 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (5.0ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (6.4ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:06 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (2.0ms)
+  Rendered reservations/index.json.jbuilder (6.5ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (6.0ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:16 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (12.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.7ms)
+  Rendered reservations/index.json.jbuilder (6.1ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:26 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (6.6ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:36 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (6.4ms)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:41 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:46 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.5ms)
+  Rendered reservations/index.json.jbuilder (4.7ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:14:56 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:06 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.8ms)
+  Rendered reservations/index.json.jbuilder (6.6ms)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (5.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:16 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:26 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.5ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (6.2ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started OPTIONS "/reservations.json" for ::1 at 2018-04-18 16:15:50 +1000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/reservations.json"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
+web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:15:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.1ms)
+  Rendered reservations/index.json.jbuilder (4.5ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.1ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (4.1ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.1ms)
+  Rendered reservations/index.json.jbuilder (3.6ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (3.3ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.9ms)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:16:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.6ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.2ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:17:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.5ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (3.7ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.9ms)
+  Rendered reservations/index.json.jbuilder (3.6ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.3ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.4ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.2ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:18:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (3.3ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.5ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.7ms)
+  Rendered reservations/index.json.jbuilder (6.5ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (6.2ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (4.0ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.8ms)
+  Rendered reservations/index.json.jbuilder (5.9ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (6.1ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:19:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.5ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.4ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:51 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.5ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:55 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:20:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.1ms)
+  Rendered reservations/index.json.jbuilder (4.0ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:03 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:07 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:11 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:15 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (3.3ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:19 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.8ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:23 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:27 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (6.4ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:31 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.2ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:35 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (3.3ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:39 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.2ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:43 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.2ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:21:47 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.8ms)
+  Rendered reservations/index.json.jbuilder (3.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:22:55 +1000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (11.2ms)
+Completed 200 OK in 22ms (Views: 10.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:22:59 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.0ms)
+  Rendered reservations/index.json.jbuilder (20.8ms)
+Completed 200 OK in 25ms (Views: 14.5ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:00 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.9ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:04 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.3ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:08 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:12 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:16 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:20 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:24 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:28 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:32 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:36 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.7ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:40 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.8ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:44 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.8ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:48 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:52 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:23:56 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.5ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:00 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:04 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.8ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:08 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.4ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:12 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:16 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:20 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.5ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:24 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.4ms)
+  Rendered reservations/index.json.jbuilder (5.7ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:28 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:32 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:36 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:40 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.1ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:44 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:48 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.5ms)
+  Rendered reservations/index.json.jbuilder (6.7ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:53 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:24:57 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:01 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.4ms)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:05 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:09 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (4.5ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:13 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:17 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:21 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.3ms)
+  Rendered reservations/index.json.jbuilder (5.2ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:25 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:29 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.9ms)
+  Rendered reservations/index.json.jbuilder (7.1ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:33 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.6ms)
+  Rendered reservations/index.json.jbuilder (5.9ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:37 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.7ms)
+  Rendered reservations/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:41 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:45 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.5ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:49 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (0.6ms)
+  Rendered reservations/index.json.jbuilder (2.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reservations.json" for ::1 at 2018-04-18 16:25:53 +1000
+Processing by ReservationsController#index as JSON
+  Rendering reservations/index.json.jbuilder
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/_reservation.json.jbuilder (1.8ms)
+  Rendered reservations/index.json.jbuilder (7.7ms)
+Completed 200 OK in 15ms (Views: 12.3ms | ActiveRecord: 0.7ms)
+
+
