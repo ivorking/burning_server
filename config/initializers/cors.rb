@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This code was all jacked from the rack-cors github docs
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
@@ -8,3 +9,15 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
         :methods => %i(get post put patch delete options head)
     end
   end
+=======
+# This code is from rack-cors github docs
+
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
+  allow do
+    origins '*'
+    resource '*',
+      :headers => :any,
+      :methods => %i(get post put patch delete options head)
+  end
+end
+>>>>>>> c5ceb2b595977270bb01810dfc7d51c5e9742df2
