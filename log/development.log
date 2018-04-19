@@ -563,3 +563,843 @@ Processing by FlightsController#index as JSON
   [1m[36mFlight Load (0.5ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
   Rendered flights/index.json.jbuilder (2.2ms)
 Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.5ms)
+Started GET "/" for ::1 at 2018-04-19 09:34:32 +1000
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 195ms (Views: 193.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 09:45:02 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (1.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 55ms (Views: 35.1ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 09:45:06 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (8.6ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 09:59:58 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.6ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:01:06 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.5ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (22.4ms)
+Completed 200 OK in 34ms (Views: 22.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:02:20 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:02:37 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:04:46 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:07:50 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:08:53 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.5ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:10:27 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 50ms (Views: 47.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:11:59 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 10:17:10 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:17:26 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.8ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2018-04-19 10:19:17 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for ::1 at 2018-04-19 10:19:20 +1000
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.5ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 33ms (Views: 22.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:22:18 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (7.7ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:24:53 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.8ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:26:13 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (6.2ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:27:43 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (7.3ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:27:58 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.6ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:28:49 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (6.4ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:34:28 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.3ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:36:23 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (5.9ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:36:41 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (7.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/index.json.jbuilder (16.7ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:38:28 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (7.5ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:40:17 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (9.3ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:40:26 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.7ms)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:47:13 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (6.1ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:48:00 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/index.json.jbuilder (7.8ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:49:57 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.6ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:50:47 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (8.8ms)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:51:17 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (7.8ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:51:36 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.0ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:55:00 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.2ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:56:13 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.5ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 10:56:21 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.3ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:02:24 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (6.8ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:02:56 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (6.4ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:04:29 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (9.0ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:05:09 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.8ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.9ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:05:56 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.9ms)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:06:01 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (1.0ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (9.2ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:06:28 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/index.json.jbuilder (9.8ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:07:21 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (1.0ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.8ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:11:13 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.5ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:13:13 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.3ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:14:05 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.2ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:14:27 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.6ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:15:11 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (9.1ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:15:23 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.2ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:16:44 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/index.json.jbuilder (9.0ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:16:59 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.9ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:19:38 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (6.7ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:20:19 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (6.5ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:36:21 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.1ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:36:40 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.3ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:37:18 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.8ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:38:36 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.9ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:39:33 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.9ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:43:04 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (8.7ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 11:43:34 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (7.4ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes" for ::1 at 2018-04-19 12:02:53 +1000
+Processing by AirplanesController#index as HTML
+  Rendering airplanes/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.6ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/airplanes/1" for ::1 at 2018-04-19 12:02:55 +1000
+Processing by AirplanesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAirplane Load (1.5ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering airplanes/show.html.erb within layouts/application
+  Rendered airplanes/show.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 44ms (Views: 32.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 12:04:55 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (1.0ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (9.2ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 12:05:35 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/index.json.jbuilder (7.8ms)
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 12:05:59 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.5ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.5ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/index.json.jbuilder (8.8ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 12:08:29 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.6ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.2ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (6.7ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 12:18:12 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.8ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (8.6ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/airplanes.json" for ::1 at 2018-04-19 12:20:27 +1000
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.5ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.9ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.4ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (9.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.5ms)
+
+
